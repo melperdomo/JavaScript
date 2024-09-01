@@ -1,3 +1,4 @@
+alert('Vamos ver se você pode dirigir...')
 let idade = prompt('Digite sua idade:');
 
 if (idade >= 18) {
