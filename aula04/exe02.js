@@ -1,5 +1,5 @@
 alert('Vamos ver se você pode dirigir...')
-let idade = prompt('Digite sua idade:');
+let idade = prompt('Digite sua idade:')
 
 if (idade >= 18) {
     alert('Você já é maior de idade!')

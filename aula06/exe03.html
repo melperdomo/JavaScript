@@ -27,14 +27,16 @@
         var n1 = Number(window.prompt('Digite um número:'));
         var n2 = Number(window.prompt('Digite outro número:'));
         var s = n1 + n2;
-        window.alert(`A soma entre ${n1} e ${n2} é ${s}`) 
-        //window.alert('A soma dos valores é ' + String(s)); ou s.toString()
-        // Em JS, o + é usado para concatenar
-        // (string + string) para concatenação
-        // O prompt, automaticamente recebe a var como (string)
-        // para adição devemos usar (number + number)
-        // Para fazer uma soma, você precisa converter o tipo da variável como: (Number), (Number.parseInt - especificamente para número inteiro) ou (Number.parseFloat - especificamente para número real)
-        //Para converter para String, use (String), como na linha 31
+        window.alert(`A soma entre ${n1} e ${n2} é ${s}`);
+        /*
+        window.alert('A soma dos valores é ' + String(s)); ou s.toString();
+        Em JS, o + é usado para concatenar;
+        (string + string) para concatenar texto;
+        O prompt, automaticamente recebe a var como (string);
+        Para cálculo de adição devemos usar (number + number);
+        Para fazer uma soma, você precisa converter o tipo da variável como: (Number), (Number.parseInt - especificamente para número inteiro) ou (Number.parseFloat - especificamente para número real);
+        Para converter para String, use (String), como na linha 31;
+        */
     </script>
 </body>
 </html>
