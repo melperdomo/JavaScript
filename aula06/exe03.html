@@ -11,31 +11,31 @@
             color: whitesmoke;
             font: normal 1.5rem Arial;
         }
-        h1 {
+        h2 {
             color: rgb(255, 240, 69);
         }
     </style>
 </head>
 <body>
-    <h1>
+    <h2>
         Bora aprender JS!
-    </h1>
+    </h2>
     <p>
         Primeiros passos...
     </p>
     <script>
         var n1 = Number(window.prompt('Digite um número:'));
         var n2 = Number(window.prompt('Digite outro número:'));
+        // O prompt automaticamente recebe um dado como string, então para fazer expressões numéricas, você precisa converter o tipo da variável para número usando: (Number, para qualquer número), (Number.parseInt - para número inteiro) ou (Number.parseFloat - para número real);
         var s = n1 + n2;
         window.alert(`A soma entre ${n1} e ${n2} é ${s}`);
+        window.alert(`A soma dos valores é ` String(s));
         /*
-        window.alert('A soma dos valores é ' + String(s)); ou s.toString();
-        Em JS, o + é usado para concatenar;
-        (string + string) para concatenar texto;
-        O prompt, automaticamente recebe a var como (string);
+        Em JS, o + é usado para concatenar.
+        (string + string) para concatenar texto.
         Para cálculo de adição devemos usar (number + number);
-        Para fazer uma soma, você precisa converter o tipo da variável como: (Number), (Number.parseInt - especificamente para número inteiro) ou (Number.parseFloat - especificamente para número real);
-        Para converter para String, use (String), como na linha 31;
+        Para converter o dado de volta para String, use:
+        String(s) ou s.toString()
         */
     </script>
 </body>
